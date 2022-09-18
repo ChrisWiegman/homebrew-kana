@@ -12,7 +12,7 @@ class Kana < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/ChrisWiegman/kana-cli/releases/download/0.0.3/kana_0.0.3_Darwin_arm64.zip"
-      sha256 "6b6a1f9fba35a46c4c86b6cd8191f01270fc3ece30038042e906e8a72cc2a719"
+      sha256 "34738847a6daf873bb3861b94dbb495e5f7c32e7cab48ad3ac615bf2d99e1515"
 
       def install
         bin.install "kana"
@@ -20,7 +20,7 @@ class Kana < Formula
     end
     if Hardware::CPU.intel?
       url "https://github.com/ChrisWiegman/kana-cli/releases/download/0.0.3/kana_0.0.3_Darwin_x86_64.zip"
-      sha256 "cedc2876e57208c665dc16cf6f4e2d35ad4cf5d6bf237f6b59403f24ce95fb36"
+      sha256 "d1f348018e1aa0621619d9615e94f998d7fb61d27b0dc87fdd27874135027a0f"
 
       def install
         bin.install "kana"
