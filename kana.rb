@@ -5,21 +5,21 @@
 class Kana < Formula
   desc "A simple, portable CLI for efficient WordPress development."
   homepage "https://github.com/ChrisWiegman/kana-cli"
-  version "0.2.0"
+  version "0.2.1"
   license "GPL-3.0 license"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/ChrisWiegman/kana-cli/releases/download/0.2.0/kana_0.2.0_macos_arm64.zip"
-      sha256 "855571db858e8f56e86bdb66febffb96782d66843b9378f84a1f7f64e293bcea"
+      url "https://github.com/ChrisWiegman/kana-cli/releases/download/0.2.1/kana_0.2.1_macos_arm64.zip"
+      sha256 "f261dd714ced56b13b5c7623a75a00e67ef294f60c04cf4508022eb1ad8f63af"
 
       def install
         bin.install "kana"
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ChrisWiegman/kana-cli/releases/download/0.2.0/kana_0.2.0_macos_x86_64.zip"
-      sha256 "a1e8081a362b519b6ff57416958094b969a2a7f9f29c1f5685c951dc31032cf6"
+      url "https://github.com/ChrisWiegman/kana-cli/releases/download/0.2.1/kana_0.2.1_macos_x86_64.zip"
+      sha256 "f01ca207ab4b04f7c843c4b573879e0614d7b3c6dadc4bd0b0d12b2e1ff795bc"
 
       def install
         bin.install "kana"
@@ -29,8 +29,8 @@ class Kana < Formula
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/ChrisWiegman/kana-cli/releases/download/0.2.0/kana_0.2.0_linux_x86_64.zip"
-      sha256 "3076562479da67c5f09a03f802c3461d7431ee3ca834e36ef718a5a5fd6a9705"
+      url "https://github.com/ChrisWiegman/kana-cli/releases/download/0.2.1/kana_0.2.1_linux_x86_64.zip"
+      sha256 "ab0f2c6faeb0dad93a07e1373e0beb503bef3b6237cdf0b6b828aa313131a0e6"
 
       def install
         bin.install "kana"
